@@ -17,7 +17,7 @@ const notifications = ref([]);
 // };
 
 const startSSE = () => {
-  fetchEventSource("http://localhost:5062/api/notification/stream/userguide@bi.go.id", {
+  fetchEventSource("https://localhost:8004/api/notification/stream/userguide@bi.go.id", {
     // headers: {
     //   "Authorization": `Bearer ${token}`
     // },
